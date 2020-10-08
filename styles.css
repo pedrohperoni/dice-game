@@ -1,0 +1,87 @@
+body {
+  text-align: center;
+  background-color: #092532;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 5rem;
+  color: #DBEDF3;
+  text-shadow: 3px 0 #FF4136;
+}
+
+h2, h3, h4{
+  color: #DBEDF3;
+  font-weight: 100;
+}
+
+
+
+footer {
+  color: #DBEDF3;
+}
+
+.play{
+  margin-top: -50px;
+}
+
+.dice{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.player1{
+  margin: 20px;
+}
+
+.player2{
+  margin: 20px;
+}
+
+.counter{
+  display: flex;
+  justify-content: center;
+}
+
+.p1, .p2, .draw{
+  margin: 0 40px 0 40px;
+}
+/* button */
+
+.button {
+	background-color: #FF4136;
+	border: 2px solid #FF725C;
+	border-radius: 8px;
+	box-shadow: 0 6px #FF4136,
+			0 8px #FF725C;
+	color: #DBEDF3;
+	padding: 15px 50px;
+	position: relative;
+	transition: transform 0.2s linear, box-shadow 0.2s linear;
+  margin-bottom: 20px;
+}
+
+.button:active {
+	transform: translateY(8px);
+	box-shadow: 0 0 #FF4136,
+			0 0 #FF725C;
+}
+
+.button:focus {
+	outline: none;
+}
+ /* streak */
+
+ .streak{
+   margin: 20px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .box, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+   background-color: #092532;
+  height: 50px;
+  width: 50px;
+  margin: 1px;
+ }
