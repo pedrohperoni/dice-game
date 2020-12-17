@@ -7,7 +7,7 @@ let streak = [];
 
 play = () => {
 
-  // roll a number and get the corresponding image
+  // roll a random number and get the corresponding image
 
   let number1 = Math.floor(Math.random() * 6) + 1;
   let number2 = Math.floor(Math.random() * 6) + 1;
@@ -40,6 +40,7 @@ play = () => {
   document.querySelector(".draw").innerHTML = "No Winner: " + counter3;
   document.querySelector(".l10").innerHTML = "Last 10"
 
+// render the last 10 boxes
 
 if (streak[streak.length-1] == "red"){
   document.querySelector(".box1").style.backgroundColor = "#FF4136"
@@ -128,7 +129,6 @@ if (streak[streak.length-10] == "red"){
 } else {
   document.querySelector(".box10").style.backgroundColor = "#092532"
 }
-
 
 
   // change button text
